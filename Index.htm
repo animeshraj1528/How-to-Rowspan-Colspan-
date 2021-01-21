@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Coded by animeshraj-->
+	<!--I've tried to make the code easier for begginers-->
+	<!--Read the code carefully and understand the topic Buddy! :)-->
+	<title>How to ROWSPAN & COLSPAN ?</title>
+	<style>
+		.markssheet {
+			margin-left: 10%;
+			margin-right: 10%;
+			margin-top: 50px;
+			width: 80%;
+			text-align: center;
+			/*for shadow*/
+			box-shadow: 0 10px 8px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+
+		.markssheet caption {
+			margin-bottom: 30px;
+			font-weight: bolder;
+			font-size: 2em;
+			color: red;
+		}
+
+		.markssheet thead {
+			background: #350e71;
+			color:white;
+		}
+
+		.markssheet thead th {
+			padding-bottom: 5px;
+			padding-top: 5px;
+			border: 1px solid gray;
+			font-size: 1.5em;
+		}
+
+		.markssheet tbody td {
+			font-size: 1.2em;
+			padding: 5px;
+		}
+
+		.lighback1 {
+			background: #dadaff;
+		}
+
+		.lighback2 {
+			background: #daffdd;
+		}
+	</style>
+</head>
+<body>
+<table border="0" cellspacing="0" class="markssheet">
+	<caption>Marksheet for Class X</caption>
+	<thead>
+		<tr>
+ <!--Just add a rowspan and the number of rows u've to span (cover)-->
+			<th rowspan="2">Roll No</th>
+			<th rowspan="2">Name</th>
+<!--U have to also add the colspan attribute in the same way and add no. of cols to span in commas-->	
+			<th colspan="3">Marks</th>
+			<th rowspan="2">Total Marks</th>
+<!--Remember that the colspan in an independent attribute but not a style attribute's property!!-->			
+		</tr>
+		<tr>
+			<th>Subject1</th>
+			<th>Subject2</th>
+			<th>Subject3</th>
+			
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="lighback1">
+			<td>20xx</td>
+			<td>Student1</td>
+			<td>80</td>
+			<td>40</td>
+			<td>90</td>
+			<td>210</td>
+		</tr>
+		<tr class="lighback2">
+			<td>20xx</td>
+			<td>Student2</td>
+			<td>89</td>
+			<td>76</td>
+			<td>45</td>
+			<td>210</td>
+		</tr>
+		<tr class="lighback1">
+			<td>20xx</td>
+			<td>Student3</td>
+			<td>86</td>
+			<td>67</td>
+			<td>50</td>
+			<td>203</td>
+		</tr>
+		<tr class="lighback2">
+			<td>20xx</td>
+			<td>Student4</td>
+			<td>99</td>
+			<td>70</td>
+			<td>80</td>
+			<td>249</td>
+		</tr>
+		<tr class="lighback1">
+			<td>20xx</td>
+			<td>Student5</td>
+			<td>86</td>
+			<td>74</td>
+			<td>70</td>
+			<td>230</td>
+		</tr>
+	</tbody>
+	<!--Hope that u may have understood the topic-->
+	<!--GoodLuck for your DEV Journey ☺☻-->
+</table>
+</body>
+</html>
