@@ -9,4 +9,4 @@ GoodLuck Buddy!☺
 
 Have A nice DEV Journey!
 
-Languages I know:- HTML ; CSS ; Javascript ; Python ; HTA ; Bootstrap ;
+Languages I know:- HTML ; CSS ; Javascript ; Python ; HTA ; Bootstrap ; LOGO ;
